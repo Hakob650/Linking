@@ -40,7 +40,7 @@ Then we modify math.c by adding the definition of the int cube(int n) function.
 
 Then we compile math.c and main.c into object files again:
 
-    gcc -c math.,c
+    gcc -c math.c
 
     gcc -c main.c
 
