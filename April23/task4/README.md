@@ -12,18 +12,26 @@ Here we will work with 3 files:
 
 3)main.c-This file includes math.h and calls the add and subtract functions for specific numbers and prints the results.
 
+
 Steps to Execute:
+
 
 1)Compile math.c and main.c into object files
 
-  gcc -c math.c
+   
+    gcc -c math.c
 
-  gcc -c main.c
+   
+    gcc -c main.c
+
 
 2)Link them into single executable file
 
+  
   gcc math.o main.o -o program
+
 
 3)Run the executable
 
+  
   ./program
