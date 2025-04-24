@@ -7,6 +7,7 @@ Here we create 2 files:
 Then we compile the 2 files into object files:
       
       gcc -c math.c
+      
       gcc -c main.c
 
 Then we link them into a single executable one:
@@ -26,6 +27,7 @@ And we get the output:
 Then we modify the main.c file by calling cube(int n) function that doesn't exist yet.
 
 And then we compile math.c and main.c into object files:
+    
     gcc -c math.c 
     
     gcc -c main.c 
@@ -52,7 +54,12 @@ After that we link them into single executable file again:
 
     gcc math.o main.o -o program //here we will not get a linker error because we added the int cube(int n) function defintion in math.c
 
-After that we run the executable one,and get the output:
+After that we run the executable one.
+
+    ./program
+
+
+And get the output:
 
     Square=25
 
