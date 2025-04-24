@@ -13,7 +13,7 @@ Here we will work with 3 files:
 
 
 
-2)math.c-This file calls the math.h for making sure that is follows the declarations set in the header,and provides the implementation of functions add and subtract.
+2)math.c-This file calls the math.h for making sure that it follows the declarations set in the header,and provides the implementation of functions add and subtract.
 
 
 
