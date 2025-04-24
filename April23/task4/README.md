@@ -47,13 +47,16 @@ Steps to Execute:
   
   
    
+   
    gcc math.o main.o -o program
+
 
 
 
 
 3)Run the executable
 
+  
   
   
   
