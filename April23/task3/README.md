@@ -1,4 +1,5 @@
 Task3
+
 Here we create 2 files:
       math.c,which contains function implementation that takes an integer as input and returns its square.
       main.c,which calls that function for a specific number.
