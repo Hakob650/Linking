@@ -15,7 +15,7 @@ By including "math.h",math.c ensures that it follows declaration set in the head
 
 3.Using The Functions in main
 
-In main.c,headers "math.h" and "strring_utils.h" are included,this allows to call the functions declared in the header.
+In main.c,headers "math.h" and "string_utils.h" are included,this allows to call the functions declared in the header.
 
 4.Compile each .c file into an object file
     
