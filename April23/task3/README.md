@@ -1,8 +1,11 @@
 Task3
 
 Here we create 2 files:
+      
       math.c,which contains function implementation that takes an integer as input and returns its square.
+      
       main.c,which calls that function for a specific number.
+
 Then we compile the 2 files into object files:
       
       gcc -c math.c
@@ -12,13 +15,15 @@ Then we link them into a single executable one:
 
       gcc math.o main.o -o program
 
-Here they link successfully
+Here they link successfully.
 
 Then we run the executable:
 
     ./program
 
-And we get the output: 25.
+And we get the output: 
+
+    Square=25.
 
 Then we modify the main.c file by calling cube(int n) function that doesn't exist yet.
 
@@ -51,6 +56,6 @@ After that we link them into single executable file again:
 
 After that we run the executable one,and get the output:
 
-   Square=25
+    Square=25
 
     
