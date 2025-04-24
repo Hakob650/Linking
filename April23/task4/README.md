@@ -43,21 +43,13 @@ Steps to Execute:
 
 
 2)Link them into single executable file
-
-  
-  
-   
-   
-   gcc math.o main.o -o program
+ 
+    gcc math.o main.o -o program
 
 
 
 
 
 3)Run the executable
-
-  
-  
-  
-  
-  ./program
+ 
+    ./program
