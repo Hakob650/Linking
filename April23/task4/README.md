@@ -1,6 +1,7 @@
 Task4
 
 Here we will work with 3 files:
+ 
   1)math.h-includes the prototypes for 2 functions
     
       #ifndef MATH_H //checks if macro MATH_H is defined,prevents multiple inclusions
